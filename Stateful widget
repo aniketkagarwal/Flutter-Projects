@@ -1,0 +1,23 @@
+// All the UI components in flutter is known as widget.
+
+// Stateful widgets have a mutable state, i.e., they are mutable and can be drawn multiple times within its lifetime.
+
+// They are the widgets which can change their state multiple times and can be redrawn onto the screen any number of times while 
+// the app is in action.
+
+
+import 'package:flutter/material.dart';
+
+class StartScreen extends StatefulWidget {
+  @override
+  _StartScreenState createState() => _StartScreenState();
+}
+
+class _StartScreenState extends State<StartScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      // UI of the stateful screen
+    );
+  }
+}
