@@ -1,0 +1,16 @@
+// Stateless widgets do not require mutable state, i.e., it is immutable.
+
+// These cannot change their state during the runtime of the app, which means the widgets
+// cannot be redrawn while the app is in action.
+
+
+import 'package:flutter/material.dart';
+
+class StartScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      // UI of the screen
+    );
+  }
+}
